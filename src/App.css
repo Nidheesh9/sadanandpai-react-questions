@@ -1,3 +1,67 @@
 .title:hover .all-icons {
   display: block;
 }
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 16px;
+  cursor: auto;
+}
+
+.todo-item:hover {
+  background-color: #f9fafb;
+}
+
+.todo-item input[type="checkbox"] {
+  width: 40px;
+  height: 40px;
+  margin-right: 16px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 2px solid #d1d5db;
+}
+
+.todo-item div,
+.todo-item input[type="text"] {
+  flex: 1;
+  font-size: 24px;
+  color: #1f2937;
+}
+
+input[type="text"]:focus {
+  background-color: #f9fafb;
+  outline: none;
+}
+
+input[type="checkbox"]:checked + div {
+  text-decoration: line-through;
+}
+
+.remove-item {
+  cursor: pointer;
+  position: absolute;
+  right: 1rem;
+  display: none;
+}
+
+.todo-item:hover .remove-item {
+  display: block;
+  line-height: 1rem;
+}
+
+.btn {
+  padding: 4px 12px;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  border-color: #fb5c5c;
+}
+
+.selected {
+  border-color: #fb5c5c;
+}
