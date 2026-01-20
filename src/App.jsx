@@ -11,14 +11,18 @@ import ChipsInput from "./pages/ChipsInput";
 import ChessBoard from "./pages/ChessBoard";
 import ColumnTable from "./pages/ColumnTable";
 import ShapeDrawer from "./pages/ShapeDrawer";
+import WordConnect from "./pages/WordConnect";
 import TrafficLight from "./pages/TrafficLight";
 import FileExplorer from "./pages/FileExplorer";
 import BookBusTicket from "./pages/BookBusTicket";
 import WaterBalancer from "./pages/WaterBalancer";
 import NestedComments from "./pages/NestedComments";
+import TypeheadOnline from "./pages/TypeHeadOnline";
+import AdvancedCounter from "./pages/AdvancedCounter";
 import TypeheadOffline from "./pages/TypeheadOffline";
 import MeetingCalender from "./pages/MeetingCalender";
 import "./App.css";
+import MemoryGame from "./pages/MemoryGame";
 
 const App = () => {
   return (
@@ -34,6 +38,7 @@ const App = () => {
       {/* <ChipsInput /> */}
       {/* <GridLights /> */}
       {/* <ChessBoard /> */}
+      {/* <WordConnect /> */}
       {/* <ColumnTable /> */}
       {/* <ShapeDrawer /> */}
       {/* <TrafficLight /> */}
@@ -41,8 +46,11 @@ const App = () => {
       {/* <BookBusTicket /> */}
       {/* <WaterBalancer /> */}
       {/* <NestedComments /> */}
+      {/* <TypeheadOnline /> */}
+      {/* <AdvancedCounter /> */}
       {/* <TypeheadOffline /> */}
       {/* <MeetingCalender /> */}
+      <MemoryGame />
     </>
   );
 };
